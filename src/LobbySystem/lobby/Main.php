@@ -34,7 +34,7 @@ class Main extends PluginBase implements Listener
 
 	public function onEnable()
 	{
-		$this->getLogger()->notice(base64_decode("UGx1Z2luIEVuYWJsZWQuIEZpeGVkIGJ5IEphY2tNRC4="));
+		$this->getLogger()->notice("Aktiviert");
 
 		$prefix = new Config($this->getDataFolder() . "prefix.yml" , Config::YAML);
 		if (empty($prefix->get("Prefix"))) {
