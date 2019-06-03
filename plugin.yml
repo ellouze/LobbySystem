@@ -1,0 +1,17 @@
+name: LobbyCore
+version: 1.0.0
+main: LobbySystem\lobby\Main
+api: [3.0.0]
+author: zBearchenPlayz
+author: ElektroPrinz, Joshizaah
+For Organization: Pocketmine-PHP
+permissions:
+  lobby.yt:
+    default: op
+commands:
+  hub:
+     description: hub
+     usage: /hub
+  lobby:
+     description: lobby
+     usage: /lobby
