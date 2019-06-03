@@ -492,9 +492,11 @@ class Main extends PluginBase implements Listener
 			$player->getInventory()->setItem(1, Item::get(46)->setCustomName("§4Silent Hub"));
 			$player->getInventory()->setItem(2, Item::get(347)->setCustomName("§eSwitch Lobby));
                         $player->getInventory()->setItem(8, Item::get(54)->setCustomName("§9Gadgets"));
+
 			if ($player->hasPermission("lobby.yt")) {
 				$player->getInventory()->setItem(7 , Item::get(288)->setCustomName("§fFly"));
-			} else {
+			} 
+                        else {
 				$player->getInventory()->setItem(7 , Item::get(152)->setCustomName("§fFly §7[§6Premium§7]"));
 			}
 			$player->getInventory()->setItem(6 , Item::get(369)->setCustomName("§eHide players §8[§aSee all§8]"));
