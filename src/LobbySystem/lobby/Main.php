@@ -403,11 +403,11 @@ class Main extends PluginBase implements Listener
 		} elseif ($item->getCustomName() == "§cBack") {
 
 			$player->getInventory()->clearAll();
-			$player->getInventory()->setItem(0 , Item::get(339)->setCustomName("§aInformation"));
+			$player->getInventory()->setItem(2 , Item::get(339)->setCustomName("§aInformation"));
 			$player->getInventory()->setItem(4 , Item::get(345)->setCustomName("§4Teleporter"));
 			$player->getInventory()->setItem(1 , Item::get(46)->setCustomName("§4Silent Hub"));
-			$player->getInventory()->setItem(2 , Item::get(347)->setCustomName("§eSwitch Lobby"));
-			$player->getInventory()->setItem(8 , Item::get(54)->setCustomName("§9Gadgets"));
+			$player->getInventory()->setItem(5 , Item::get(347)->setCustomName("§eSwitch Lobby"));
+			$player->getInventory()->setItem(3 , Item::get(54)->setCustomName("§9Gagets"));
 			if ($player->hasPermission("lobby.yt")) {
 				$player->getInventory()->setItem(7 , Item::get(288)->setCustomName("§fFly"));
 			} else {
