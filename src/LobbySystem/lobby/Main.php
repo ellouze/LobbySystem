@@ -193,7 +193,7 @@ class Main extends PluginBase implements Listener
 					$LobbyTitle = new Config($this->getDataFolder() . "Title.yml" , Config::YAML);
 					$config = new Config($this->getDataFolder() . "config.yml" , Config::YAML);
 
-					$sender->
+					
 					$sender->sendMessage($this->prefix . $config->get("Hub/Lobby"));
 					$sender->teleport($this->getServer()->getDefaultLevel()->getSafeSpawn());
 					$sender->addTitle($LobbyTitle->get("LobbySendigBackTitle"));
