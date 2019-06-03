@@ -60,7 +60,7 @@ class Main extends PluginBase implements Listener
 			$config->set("Hub/Lobby", " §c Welcome to the Hub");
 			$config->set("JoinTitle", " §7[§a»§7] §aWelcome");
 			$config->set("Prefix", "§7[§6§lBassCraft§r§7]");
-			$config->set("Chat', " §7You must have a rank to write here!");
+			$config->set("Chat', "§7You must have a rank to write here!");
 		}
 		$config->save();
 
